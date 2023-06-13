@@ -1,0 +1,21 @@
+name: Cyber Run Test 1
+
+on:  
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:  
+  namasiapa:
+  push_to_registry:
+    name: Academy CyberOps
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+    - name: Shell execution
+        run: |
+        ls -lah
+        echo "ssssstayc;s"
