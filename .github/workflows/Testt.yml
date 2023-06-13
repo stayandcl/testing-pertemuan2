@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:  
-  namasiapa:
     name: Academy CyberOps
     runs-on: ubuntu-latest
     steps:
