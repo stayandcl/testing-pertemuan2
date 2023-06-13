@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:  
-  namasiapa:
     name: Academy CyberOps
     runs-on: ubuntu-latest
     steps:
@@ -15,5 +14,7 @@ jobs:
 
     - name: Shell execution
         run: |
+        git status
         ls -lah
-        echo "ssssstayc;s"
+        id
+        echo "ssssstaycls"
