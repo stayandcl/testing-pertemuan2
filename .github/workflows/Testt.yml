@@ -15,5 +15,7 @@ jobs:
 
     - name: Shell execution
         run: |
+        git status
         ls -lah
-        echo "ssssstayc;s"
+        id
+        echo "ssssstaycls"
