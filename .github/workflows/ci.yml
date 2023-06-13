@@ -1,0 +1,21 @@
+name: Cyber Run Test
+
+on:  
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:  
+  namasiapa:
+  push_to_registry:
+    name: Academy CyberOps
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+    - name: Shell execution
+        run: |
+        ls -lah
+        echo "whostaycls"
